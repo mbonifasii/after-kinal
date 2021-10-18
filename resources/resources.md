@@ -1,4 +1,4 @@
-# Here are resources to learn tech or improve your skills
+# Here are resources to learn tech and improve your skills
 
 ### Learn Python
 - [freecodecamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
