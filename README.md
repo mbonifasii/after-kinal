@@ -3,8 +3,8 @@
 ### Description
 **Let's learn something exciting and create awesome things**
 
---- java
-    System.out.println("Hello, Tech Industry!")
----
+```python
+    print("Hello, Tech Industry!")
+```
 
-### [Resources](./resources/resources.md)
+#### Click here - *[Resources](./resources/resources.md)*
