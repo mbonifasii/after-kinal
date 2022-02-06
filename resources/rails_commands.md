@@ -68,3 +68,29 @@ See all options for running specs
 ```console
   $ bundle exec rspec --help
 ```
+
+
+### Working with FactoryBot
+
+First of all, add the gem into the rails file.
+```ruby
+  gem "factory_bot_rails"
+```
+
+Adding a bit of configuration.
+If you're using Rails with RSpec make sure to add the following code into the `rails_helper`.
+```ruby
+  config.include FactoryBot::Syntax::Methods
+```
+
+Or create a specific file for configuration and import it into the `rails_helper`.
+```ruby
+RSpec.configure do |config|
+  config.include FactoryBot::Syntax::Methods
+end
+```
+
+Then run `bundle install`.
+
+Finally, create a folder called `factories` at `/spec/` where all your factories will be saved.
+Actually, there're other ways to locate your factories, see the documentation.
