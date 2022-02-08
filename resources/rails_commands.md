@@ -94,3 +94,20 @@ Then run `bundle install`.
 
 Finally, create a folder called `factories` at `/spec/` where all your factories will be saved.
 Actually, there're other ways to locate your factories, see the documentation.
+
+
+### Working with Rails
+
+```console
+  rake db:drop RAILS_ENV="test"
+  rake dev:db:reset
+  rake app:maintenance
+```
+
+others
+
+```console
+  rake db:setup RAILS_ENV="test"
+  rails db:migrate
+```
+
